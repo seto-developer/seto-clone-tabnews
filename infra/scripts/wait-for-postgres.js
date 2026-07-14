@@ -9,9 +9,9 @@ function checkPostgres() {
       checkPostgres();
       return;
     }
-    console.log("\n\nPostgres is ready!\n");
+    console.log("\n\n🟤️ Postgres is ready!\n");
   }
 }
 
-process.stdout.write("\n\nWaiting for Postgres to be ready...");
+process.stdout.write("\n\n🔴️ Waiting for Postgres to be ready...");
 checkPostgres();
